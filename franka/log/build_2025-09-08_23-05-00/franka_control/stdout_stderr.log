@@ -1,0 +1,63 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kngn/franka/build/franka_control
+-- Install configuration: ""
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//launch
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//launch/franka_servo.launch.py
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//config
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//config/initial_positions.yaml
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//config/panda_arm.xacro
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//config/panda_simulated_config.yaml
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//config/demo_rviz_config.rviz
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//config/panda.srdf
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//config/ros2_controllers.yaml
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//urdf
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//urdf/panda.urdf
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//urdf/panda.ros2_control.xacro
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//urdf/panda.urdf.xacro
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//urdf/panda_hand.ros2_control.xacro
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link1.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link4.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link3.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link5.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/hand.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link2.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link6.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link0.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link7.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/finger.stl
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link6.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link0.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/finger.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link7.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link2.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link4.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link3.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/hand.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link1.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link5.dae
+-- Installing: /home/kngn/franka/install/franka_control/share/ament_index/resource_index/package_run_dependencies/franka_control
+-- Installing: /home/kngn/franka/install/franka_control/share/ament_index/resource_index/parent_prefix_path/franka_control
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/environment/ament_prefix_path.sh
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/environment/ament_prefix_path.dsv
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/environment/path.sh
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/environment/path.dsv
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/local_setup.bash
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/local_setup.sh
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/local_setup.zsh
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/local_setup.dsv
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/package.dsv
+-- Installing: /home/kngn/franka/install/franka_control/share/ament_index/resource_index/packages/franka_control
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/cmake/franka_controlConfig.cmake
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/cmake/franka_controlConfig-version.cmake
+-- Installing: /home/kngn/franka/install/franka_control/share/franka_control/package.xml

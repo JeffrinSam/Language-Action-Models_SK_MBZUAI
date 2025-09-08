@@ -1,0 +1,9 @@
+/home/kngn/franka/build/franka_control/CMakeFiles/uninstall.dir
+/home/kngn/franka/build/franka_control/CMakeFiles/franka_control_uninstall.dir
+/home/kngn/franka/build/franka_control/CMakeFiles/test.dir
+/home/kngn/franka/build/franka_control/CMakeFiles/edit_cache.dir
+/home/kngn/franka/build/franka_control/CMakeFiles/rebuild_cache.dir
+/home/kngn/franka/build/franka_control/CMakeFiles/list_install_components.dir
+/home/kngn/franka/build/franka_control/CMakeFiles/install.dir
+/home/kngn/franka/build/franka_control/CMakeFiles/install/local.dir
+/home/kngn/franka/build/franka_control/CMakeFiles/install/strip.dir

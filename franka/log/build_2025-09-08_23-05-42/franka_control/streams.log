@@ -1,0 +1,57 @@
+[0.022s] Invoking command in '/home/kngn/franka/build/franka_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kngn/ws_moveit/install/moveit_setup_srdf_plugins:/home/kngn/ws_moveit/install/moveit_configs_utils:/home/kngn/ws_moveit/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/kngn/franka/build/franka_control -- -j16 -l16
+[0.097s] Invoked command in '/home/kngn/franka/build/franka_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kngn/ws_moveit/install/moveit_setup_srdf_plugins:/home/kngn/ws_moveit/install/moveit_configs_utils:/home/kngn/ws_moveit/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/kngn/franka/build/franka_control -- -j16 -l16
+[0.113s] Invoking command in '/home/kngn/franka/build/franka_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kngn/ws_moveit/install/moveit_setup_srdf_plugins:/home/kngn/ws_moveit/install/moveit_configs_utils:/home/kngn/ws_moveit/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/kngn/franka/build/franka_control
+[0.126s] -- Install configuration: ""
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//launch
+[0.126s] -- Installing: /home/kngn/franka/install/franka_control/share/franka_control//launch/franka_servo.launch.py
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//config
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//config/initial_positions.yaml
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//config/panda_arm.xacro
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//config/panda_simulated_config.yaml
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//config/demo_rviz_config.rviz
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//config/panda.srdf
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//config/ros2_controllers.yaml
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//urdf
+[0.126s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//urdf/panda.urdf
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//urdf/panda.ros2_control.xacro
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//urdf/panda.urdf.xacro
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//urdf/panda_hand.ros2_control.xacro
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link1.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link4.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link3.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link5.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/hand.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link2.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link6.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link0.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/link7.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/collision/finger.stl
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual
+[0.127s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link6.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link0.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/finger.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link7.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link2.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link4.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link3.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/hand.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link1.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control//meshes/visual/link5.dae
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/ament_index/resource_index/package_run_dependencies/franka_control
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/ament_index/resource_index/parent_prefix_path/franka_control
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/environment/ament_prefix_path.sh
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/environment/ament_prefix_path.dsv
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/environment/path.sh
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/environment/path.dsv
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/local_setup.bash
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/local_setup.sh
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/local_setup.zsh
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/local_setup.dsv
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/package.dsv
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/ament_index/resource_index/packages/franka_control
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/cmake/franka_controlConfig.cmake
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/cmake/franka_controlConfig-version.cmake
+[0.128s] -- Up-to-date: /home/kngn/franka/install/franka_control/share/franka_control/package.xml
+[0.129s] Invoked command in '/home/kngn/franka/build/franka_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kngn/ws_moveit/install/moveit_setup_srdf_plugins:/home/kngn/ws_moveit/install/moveit_configs_utils:/home/kngn/ws_moveit/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/kngn/franka/build/franka_control

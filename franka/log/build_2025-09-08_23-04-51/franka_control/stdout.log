@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/kngn/anaconda3/bin/python3 (found version "3.13.2") found components: Interpreter 
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+-- Found moveit_servo: 2.5.9 (/home/kngn/ws_moveit/install/moveit_servo/share/moveit_servo/cmake)
+-- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.5.9 (/home/kngn/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_resources_panda_description: 2.0.7 (/home/kngn/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake)
+-- Found moveit_resources_panda_moveit_config: 2.0.7 (/home/kngn/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake)
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/kngn/franka/build/franka_control/CMakeFiles/CMakeOutput.log".

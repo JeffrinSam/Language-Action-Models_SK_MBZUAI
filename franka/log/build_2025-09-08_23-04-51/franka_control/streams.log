@@ -1,0 +1,69 @@
+[0.020s] Invoking command in '/home/kngn/franka/build/franka_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kngn/ws_moveit/install/moveit_setup_srdf_plugins:/home/kngn/ws_moveit/install/moveit_configs_utils:/home/kngn/ws_moveit/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/kngn/franka/src/franka_control -DCMAKE_INSTALL_PREFIX=/home/kngn/franka/install/franka_control
+[0.204s] -- The C compiler identification is GNU 11.4.0
+[0.335s] -- The CXX compiler identification is GNU 11.4.0
+[0.350s] -- Detecting C compiler ABI info
+[0.485s] -- Detecting C compiler ABI info - done
+[0.489s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.489s] -- Detecting C compile features
+[0.490s] -- Detecting C compile features - done
+[0.492s] -- Detecting CXX compiler ABI info
+[0.624s] -- Detecting CXX compiler ABI info - done
+[0.629s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.629s] -- Detecting CXX compile features
+[0.629s] -- Detecting CXX compile features - done
+[0.642s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.013s] -- Found Python3: /home/kngn/anaconda3/bin/python3 (found version "3.13.2") found components: Interpreter 
+[1.190s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.297s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.314s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.334s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.392s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.491s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.502s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.720s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.760s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.822s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.848s] -- Looking for pthread.h
+[1.982s] -- Looking for pthread.h - found
+[1.982s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.114s] -- Found Threads: TRUE  
+[2.189s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[2.196s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.239s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.326s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.421s] -- Found moveit_servo: 2.5.9 (/home/kngn/ws_moveit/install/moveit_servo/share/moveit_servo/cmake)
+[2.746s] -- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.838s] -- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: filesystem 
+[3.069s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.124s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.124s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.323s] -- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: system filesystem date_time program_options thread chrono 
+[3.382s] -- Found moveit_ros_planning_interface: 2.5.9 (/home/kngn/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[3.387s] -- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: date_time filesystem program_options system thread 
+[3.401s] -- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: thread system filesystem regex date_time program_options 
+[3.429s] -- Found Boost: /home/kngn/anaconda3/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: system filesystem date_time program_options thread 
+[3.447s] -- Found moveit_resources_panda_description: 2.0.7 (/home/kngn/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake)
+[3.452s] -- Found moveit_resources_panda_moveit_config: 2.0.7 (/home/kngn/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake)
+[3.459s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[3.482s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[3.482s]   By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH
+[3.482s]   this project has asked CMake to find a package configuration file provided
+[3.482s]   by "joint_state_publisher", but CMake did not find one.
+[3.482s] 
+[3.482s]   Could not find a package configuration file provided by
+[3.482s]   "joint_state_publisher" with any of the following names:
+[3.482s] 
+[3.482s]     joint_state_publisherConfig.cmake
+[3.482s]     joint_state_publisher-config.cmake
+[3.482s] 
+[3.482s]   Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH
+[3.482s]   or set "joint_state_publisher_DIR" to a directory containing one of the
+[3.482s]   above files.  If "joint_state_publisher" provides a separate development
+[3.482s]   package or SDK, be sure it has been installed.
+[3.483s] 
+[3.483s] [0m
+[3.483s] -- Configuring incomplete, errors occurred!
+[3.483s] See also "/home/kngn/franka/build/franka_control/CMakeFiles/CMakeOutput.log".
+[3.496s] Invoked command in '/home/kngn/franka/build/franka_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kngn/ws_moveit/install/moveit_setup_srdf_plugins:/home/kngn/ws_moveit/install/moveit_configs_utils:/home/kngn/ws_moveit/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/kngn/franka/src/franka_control -DCMAKE_INSTALL_PREFIX=/home/kngn/franka/install/franka_control
