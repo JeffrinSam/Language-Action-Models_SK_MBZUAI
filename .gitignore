@@ -1,5 +1,5 @@
-# Ignore nested franka workspace (contains its own .git)
-franka/
+# (franka/ removed — converting nested workspace into tracked files)
+# If you need to treat franka as a nested repo again, restore franka/.git from franka/.git.backup
 
 # Python
 __pycache__/
