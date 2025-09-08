@@ -1,0 +1,17 @@
+# Ignore nested franka workspace (contains its own .git)
+franka/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editor/temp
+.vscode/
+.idea/
+*.swp
+
+# Colcon / ROS build artifacts
+build/
+install/
+log/
